@@ -1,3 +1,13 @@
+# Machine Learning
+
+## Definitions
+Here two definitions of Machine Learning, the first informal and dated and a second more modern.
+* the field of study that gives computers the ability to learn without being explicitly programmed.
+* a computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E. An example is playing checkers:
+  * E = the experience of playing many games of checkers
+  * T = the task of playing checkers.
+  * P = the probability that the program will win the next game.
+
 # Learning algorithms
 
 ## Supervised learning
