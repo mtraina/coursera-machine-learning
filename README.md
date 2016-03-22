@@ -1,3 +1,12 @@
 # Machine learning course in Coursera
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+... Here she comes to wreck the day. it's because i'm green isn't it! hey,
+maybe i will give you a call sometime. your number still 911?
+
+$$
+R_{\mu \nu} - {1 \over 2}g_{\mu \nu}\,R + g_{\mu \nu} \Lambda
+= {8 \pi G \over c^4} T_{\mu \nu}
+$$
+
+kinda hot in these rhinos. look at that, it's exactly three seconds before i
+honk your nose and pull your underwear over your head ...
