@@ -1,9 +1,8 @@
 # Octave
 
 ## Commands
-###### clear all the figures
 ```octave
-clear; close all; clc
+clear; close all; clc % clear all the figures
 ```
 
 ## Symbols
