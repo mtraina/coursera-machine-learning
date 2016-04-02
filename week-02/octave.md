@@ -3,12 +3,12 @@
 ## Commands
 ###### clear all the figures
 ```octave
-clear ; close all; clc
+clear; close all; clc
 ```
 
 ## Symbols
 ```octave
-: = range, e.g.: 1:4 = 1 2 3 4
+: = range % e.g.: 1:4 = 1 2 3 4
 ```
 
 ## Vectors
