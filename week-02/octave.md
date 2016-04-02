@@ -16,6 +16,12 @@ v = [1; 2; 3; 4] % 1 X 4 vector
 ```octave
 m1 = [1 2; 3 4] % 2 X 2 matrix
 m2 = [1:4; 3:6] % 2 X 4 matrix
+
+%% transpose
+m1'
+
+%% inverse
+pinv(m1)
 ```
 
 ## Plot
