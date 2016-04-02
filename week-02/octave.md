@@ -7,9 +7,16 @@ clear ; close all; clc
 ## Symbols
 : = range, e.g.: 1:4 = 1 2 3 4
 
-## Vectors 
+## Vectors
+```octave
+v = [1; 2; 3; 4] % 1 X 4 vector
+```
+
 ## Matrix
-[1:4; 3:6]
+```octave
+m1 = [1 2; 3 4] % 2 X 2 matrix
+m2 = [1:4; 3:6] % 2 X 4 matrix
+```
 
 ## Plot
 plot(X, y, 'rx', 'MarkerSize', 10);
