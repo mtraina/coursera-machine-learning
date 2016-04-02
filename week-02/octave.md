@@ -2,10 +2,14 @@
 
 ## Commands
 ###### clear all the figures
+```octave
 clear ; close all; clc
+```
 
 ## Symbols
+```octave
 : = range, e.g.: 1:4 = 1 2 3 4
+```
 
 ## Vectors
 ```octave
@@ -25,7 +29,17 @@ pinv(m1)
 ```
 
 ## Plot
-plot(X, y, 'rx', 'MarkerSize', 10);
+```octave
+%% define data
+x = [1 2; 1 2];
+y = [1 1];
+
+%% plot
+plot(x, y);
+
+%% add markers
+plot(x, y, 'rx');
+```
 
 ## Cost function
 data = load('ex1data1.txt');
