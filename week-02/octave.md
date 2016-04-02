@@ -1,10 +1,18 @@
 # Octave
 
+## Commands
+###### clear all the figures
+clear ; close all; clc
+
 ## Symbols
 : = range, e.g.: 1:4 = 1 2 3 4
 
+## Vectors 
 ## Matrix
 [1:4; 3:6]
+
+## Plot
+plot(X, y, 'rx', 'MarkerSize', 10);
 
 ## Cost function
 data = load('ex1data1.txt');
@@ -28,7 +36,17 @@ for iter = 1:num_iters
 end
 
 ## Feature normalization
-std(X(:,1))
+std(X(:,2))
+
+mu    = mean(X)
+sigma = std(X)
+
+indicies = 1:size(X, 2);
+
+for i = indicies,
+  XminusMu  = X(:, i) - mu(i);
+  X_norm(:, i) = XminusMu / sigma(i);
+end
 
 ## plot
 plot(X, y, 'rx', 'MarkerSize', 10);
